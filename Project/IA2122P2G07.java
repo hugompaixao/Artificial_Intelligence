@@ -17,7 +17,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the closest Pill to a given Node
      * if closest is null return null
      *
-     * @author Hugo Paixao
      * @param gs - GameStateInterface
      * @param node - Node
      * @return closest - Node
@@ -39,7 +38,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the closest Power to Ms.pacman position
      * if closest is null return null
      *
-     * @author Hugo Paixao
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -61,7 +59,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the closest ghost to Ms.pacman in an edible state
      * if closest is null returns null
      *
-     * @author Hugo Paixao
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -81,7 +78,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the closest ghost to Ms.pacman that's not in an
      * edible or returning state
      *
-     * @author Hugo Paixao
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -101,7 +97,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns true if at least 1 ghost is in a edible state
      * else returns false
      *
-     * @author Hugo Paixao
      * @param gs - GameStateInterface
      * @return true/false - boolean
      */
@@ -116,7 +111,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the closest Power to Ms.pacman that was already ate
      * if closest is null returns null
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -140,7 +134,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the Pill that is in better position in relation to the closest ate Power and to Ms.pacman
      * if closest is null returns null
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -164,7 +157,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
     /**
      * Method returns the closest adjacent node to the target
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @param nodes - ArrayList<Node>
      * @param node - Node
@@ -186,7 +178,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns true if at least 1 ghost is in the way of Ms.pacman to reach the target
      * else returns false
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @param nodes - ArrayList<Node>
      * @param target - Node 
@@ -209,7 +200,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * that node can't be the same that Ms.pacman or ghosts are at that moment
      * else returns null
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -238,7 +228,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * that node can't be the same that Ms.pacman or ghosts are at that moment
      * else returns seeAround
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @return closest - Node
      */
@@ -263,7 +252,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
     /**
      * Method returns how many ghosts are less than 30 nodes of distance
      *
-     * @author Nuno Silva
      * @param gs - GameStateInterface
      * @param node - Node
      * @return count - int 
@@ -307,7 +295,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns false if at least 1 ghost as an edible time less that 8
      * else returns true
      *
-     * @author Nuno Silva
      * @param gs - GameStateInterface
      * @return true/false - boolena
      */
@@ -322,7 +309,6 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns if a ghost is a 20 nodes close to Ms.pacman
      * else return false
      *
-     * @author Afonso Floro
      * @param gs - GameStateInterface
      * @param var - Node
      * @return true/false - boolean 

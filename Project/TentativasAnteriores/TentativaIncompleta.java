@@ -27,7 +27,7 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the Node of the closest ghost in a killer state
      * from the Node given
      * also sets ghost Node with the color red
-     * @author Hugo Paixão
+     * 
      * @param gs - GameStateInterface
      * @param node - Node
      * @return closest - Node
@@ -52,7 +52,7 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the Node of the closest ghost in a edible state
      * from the Node given
      * also sets ghost Node with the color cyan
-     * @author Hugo Paixão
+     * 
      * @param gs - GameStateInterface
      * @param node - Node
      * @return closest - Node
@@ -75,7 +75,7 @@ public class IA2122P2G07 implements AgentInterface, Constants {
      * Method returns the Node of the closest power
      * from the Node given
      * also sets power Node with the color cyan
-     * @author Hugo Paixão
+     * 
      * @param gs - GameStateInterface
      * @param node - Node
      * @return closest - Node

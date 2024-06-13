@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Stack;
 
 /**
- * @author Hugo Paixão
  * Primeira tentativa na resolução do pacmana
  */
 public class IA2122P2G07 implements AgentInterface, Constants {
