@@ -2,6 +2,8 @@
 All Projects Developed During AI Class
 
 ## Labs
+Three simple labs to introduce artificial intelligence.
+
 
 ## Project
 Develop a pacmam to reach the highest level possible.
