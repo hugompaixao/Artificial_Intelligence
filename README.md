@@ -6,7 +6,7 @@ Three simple labs to introduce artificial intelligence.
 
 
 ## Project
-Projeto desenvolvido por Hugo Paixão e Afonso Floro.
+Project developed by Hugo Paixão and Afonso Floro.
 
 Develop a pacmam to reach the highest level possible.
 
