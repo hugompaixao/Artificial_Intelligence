@@ -6,6 +6,8 @@ Three simple labs to introduce artificial intelligence.
 
 
 ## Project
+Projeto desenvolvido por Hugo Paixão e Afonso Floro.
+
 Develop a pacmam to reach the highest level possible.
 
   Develop File - Project\PacManProject\src\screenpac\controllers\IAA2122P2G16.java
